@@ -1,0 +1,38 @@
+{
+  "name": "plantillaWeb",
+  "version": "0.0.1",
+  "description": "Plantilla para hacer aplicaciones web",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alebupal/webapp.git"
+  },
+  "keywords": [
+    "webapp",
+    "gulp",
+    "sass",
+    "jade"
+  ],
+  "author": "Alejandro Bueno Palma",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/alebupal/webapp/issues"
+  },
+  "homepage": "https://github.com/alebupal/webapp#readme",
+  "devDependencies": {
+    "browser-sync": "^2.12.5",
+    "gulp": "^3.9.1",
+    "gulp-clean-css": "^2.0.6",
+    "gulp-iconfont": "^6.0.0",
+    "gulp-iconfont-css": "^2.1.0",
+    "gulp-inject": "^4.0.0",
+    "gulp-minify": "0.0.11",
+    "gulp-rename": "^1.2.2",
+    "gulp-sass": "^2.3.1",
+    "gulp-sourcemaps": "^2.0.0-alpha",
+    "wiredep": "^4.0.0"
+  }
+}

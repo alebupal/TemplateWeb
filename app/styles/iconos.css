@@ -1,0 +1,38 @@
+@font-face {
+	font-family: "iconos";
+	src: url('../../fonts/iconos/iconos.eot');
+	src: url('../../fonts/iconos/iconos.eot?#iefix') format('eot'),
+		url('../../fonts/iconos/iconos.woff2') format('woff2'),
+		url('../../fonts/iconos/iconos.woff') format('woff'),
+		url('../../fonts/iconos/iconos.ttf') format('truetype'),
+		url('../../fonts/iconos/iconos.svg#iconos') format('svg');
+}
+
+.icon:before {
+	font-family: "iconos";
+		-webkit-font-smoothing: antialiased;
+		-moz-osx-font-smoothing: grayscale;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: normal;
+	/* speak: none; only necessary if not using the private unicode range (firstGlyph option) */
+	text-decoration: none;
+	text-transform: none;
+}
+
+
+.icon-key:before {
+	content: "\E001";
+}
+
+.icon-linkedin-button:before {
+	content: "\E002";
+}
+
+.icon-smartphone:before {
+	content: "\E003";
+}
+
+.icon-twitter-logo-button:before {
+	content: "\E004";
+}
