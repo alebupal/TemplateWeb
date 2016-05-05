@@ -1,15 +1,15 @@
 # TemplateWeb
 Consiste en una plantilla para empezar proyectos web. Se compone de:
 
-  - [Node.js](https://nodejs.org/en/ "https://nodejs.org/en/") (Servidor node)
-  - [Gulp.js](http://gulpjs.com/ "http://gulpjs.com/") (Administrador de tareas)
-  - [Bower](http://bower.io/ "http://bower.io/") (Para instalar librerias)
+  - [Node.js](https://nodejs.org/en/ "https://nodejs.org/en/")
+  - [Gulp.js](http://gulpjs.com/ "http://gulpjs.com/")
+  - [Bower](http://bower.io/ "http://bower.io/")
 
 ### Version
 1.0.0
 
-### Plugins Gulp.js
-Los "plugins" utilizados para Gulp son:
+### Librerias Gulp.js
+Las librerías utilizadas para Gulp son:
  - [browser-sync](https://www.npmjs.com/package/browser-sync "https://www.npmjs.com/package/browser-sync") (Sincronización en tiempo real)
  - [gulp-sass](https://www.npmjs.com/package/gulp-sass "https://www.npmjs.com/package/gulp-sass") (Compilar SASS)
  - [gulp-inject](https://www.npmjs.com/package/gulp-inject "https://www.npmjs.com/package/gulp-inject") (Autoinsertar js y css)
@@ -22,7 +22,7 @@ Los "plugins" utilizados para Gulp son:
  - [gulp-iconfont-css](https://www.npmjs.com/package/gulp-iconfont-css "https://www.npmjs.com/package/gulp-iconfont-css") (Generar css a partir de una fuente)
  - [gulp-connect-php](https://www.npmjs.com/package/gulp-connect-php "https://www.npmjs.com/package/gulp-connect-php") (PHP)
 
-### Librerias
+### Librerias bower
 
 Las librerias instaladas mediantes bower son:
 
@@ -44,7 +44,13 @@ Instalamos dependencias de bower
 ```sh
 $ bower install
 ```
-ejecutar
+Modificamos rutas de PHP en gulpfile.js, en mi caso al tener xampp son estas:
+```sh
+bin: 'C:/xampp/php/php.exe', //Ruta php.exe
+ini: 'C:/xampp/php/php.ini' //Ruta php.ini
+```
+
+Ejecutamos
 ```sh
 $ gulp
 ```
@@ -52,4 +58,4 @@ Todos estos comandos se deben hacer desde el directorio del proyecto
 
 
 
-2016 [Alejandro Bueno Palma](http://alejandrobuenopalma.com/ "http://alejandrobuenopalma.com/")
+2016 [Alejandro Bueno Palma](http://alejandrobuenopalma.com/ "http://alejandrobuenopalma.com/") con colaboración de [David López Roldán](http://davidlopezroldan.com/ "http://davidlopezroldan.com/")

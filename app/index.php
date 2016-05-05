@@ -15,9 +15,10 @@
 <body>
 	<?php
 		echo "Hola alejandro!";
-		for ($i=0; $i < 10; $i++) { 
-			echo $i;
+		for ($i=0; $i < 10; $i++) {
+			echo "alejandro ".$i;
 		}
+
 	?>
   <i class="icon icon-phone-call"></i>
   <i class="icon icon-smartphone"></i>

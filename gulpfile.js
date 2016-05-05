@@ -11,16 +11,14 @@ var wiredep       = require('wiredep').stream;
 var iconfont      = require('gulp-iconfont');
 var iconfontCss   = require('gulp-iconfont-css');
 
-
-// Static Server + watching scss/html files
 gulp.task('servidor', ['php','sass','iconfont','minify-js','inject','wiredep'], function() {
     browserSync({
-        proxy: '127.0.0.1:80',
-        port: 8080,
-        open: true,
-        notify: true,
+        proxy: '127.0.0.1:80', //ruta donde se abre al lanzarse
+        port: 8080, //Puerto browserSync
+        open: true, //Abrirlo al arrancar
+        notify: true, //Mensaje de conexión y desconexión de browserSync
         ui:{
-          port: 8081
+          port: 8081 //Puerto administración browserSync
         }
     });
     gulp.watch("app/scss/**/*.scss", ['sass']);
@@ -34,12 +32,12 @@ gulp.task('servidor', ['php','sass','iconfont','minify-js','inject','wiredep'], 
 
 gulp.task('php', function() {
     connect.server({
-      base: 'app/',
-      hostname: '0.0.0.0',
-      port: 80,
-      keepalive: true,
-      bin: 'C:/xampp/php/php.exe',
-      ini: 'C:/xampp/php/php.ini'
+      base: 'app/', //Carpeta root de la web
+      hostname: '0.0.0.0', //Permite acceder desde cualquier url
+      port: 80, //Puerto servidor PHP
+      keepalive: true, //Mantener la conexión abierta
+      bin: 'C:/xampp/php/php.exe', //Ruta php.exe
+      ini: 'C:/xampp/php/php.ini' //Ruta php.ini
     });
 });
 
@@ -78,16 +76,6 @@ gulp.task('iconfont',function(){
      }))
     .pipe(gulp.dest('app/fonts/iconos/'));
 });
-
-// minificar js y css
-/*gulp.task('minify-css', ['sass','inject'], function() {
-  return gulp.src('app/styles/*.css')
-    .pipe(sourcemaps.init())
-    .pipe(cleanCSS({compatibility: 'ie8'}))
-    .pipe(sourcemaps.write())
-    .pipe(rename({suffix: '.min'}))
-    .pipe(gulp.dest('app/styles/min'));
-});*/
 
 gulp.task('minify-js', ['inject'], function() {
   gulp.src('app/scripts/*.js')

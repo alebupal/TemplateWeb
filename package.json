@@ -1,25 +1,25 @@
 {
   "name": "plantillaWeb",
   "version": "1.0.0",
-  "description": "Plantilla para hacer aplicaciones web",
+  "description": "Plantilla base para iniciar una web",
   "main": "index.php",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/alebupal/webapp.git"
+    "url": "git+https://github.com/alebupal/TemplateWeb"
   },
   "keywords": [
     "webapp",
     "gulp",
     "sass",
-    "jade"
+    "php"
   ],
   "author": "Alejandro Bueno Palma",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/alebupal/TemplateWeb#librerias"
+    "url": "https://github.com/alebupal/TemplateWeb"
   },
   "homepage": "https://github.com/alebupal/TemplateWeb#readme",
   "devDependencies": {

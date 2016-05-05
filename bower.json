@@ -1,7 +1,7 @@
 {
   "name": "TemplataWeb",
-  "description": "Plantilla para hacer aplicaciones web",
-  "main": "app/index.html",
+  "description": "Plantilla base para iniciar una web",
+  "main": "app/index.php",
   "authors": [
     "Alejandro Bueno Palma"
   ],
@@ -10,7 +10,7 @@
     "webapp",
     "gulp",
     "sass",
-    "jade"
+    "php"
   ],
   "homepage": "https://github.com/alebupal/TemplateWeb",
   "ignore": [
