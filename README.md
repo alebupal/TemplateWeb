@@ -44,12 +44,11 @@ Instalamos dependencias de bower
 ```sh
 $ bower install
 ```
-Modificamos rutas de PHP en gulpfile.js, en mi caso al tener xampp son estas:
+Instalar PHP(WAMP, XAMPP, Manualmente,...) y modificamos las rutas de PHP en gulpfile.js, en mi caso al tener xampp son estas:
 ```sh
 bin: 'C:/xampp/php/php.exe', //Ruta php.exe
 ini: 'C:/xampp/php/php.ini' //Ruta php.ini
 ```
-
 Ejecutamos
 ```sh
 $ gulp
