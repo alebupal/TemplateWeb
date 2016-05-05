@@ -14,7 +14,7 @@ Las librerías utilizadas para Gulp son:
  - [gulp-sass](https://www.npmjs.com/package/gulp-sass "https://www.npmjs.com/package/gulp-sass") (Compilar SASS)
  - [gulp-inject](https://www.npmjs.com/package/gulp-inject "https://www.npmjs.com/package/gulp-inject") (Autoinsertar js y css)
  - [gulp-clean-css](https://www.npmjs.com/package/gulp-clean-css "https://www.npmjs.com/package/gulp-clean-css") (Minificar css)
- - [gulp-sourcemaps](https://www.npmjs.com/package/gulp-sourcemaps "https://www.npmjs.com/package/gulp-sass") (sourcempas css)
+ - [gulp-sourcemaps](https://www.npmjs.com/package/gulp-sourcemaps "https://www.npmjs.com/package/gulp-sass") (sourcemaps css)
  - [gulp-sass](https://www.npmjs.com/package/gulp-minify "https://www.npmjs.com/package/gulp-minify") (Minificar js)
  - [gulp-rename](https://www.npmjs.com/package/gulp-rename "https://www.npmjs.com/package/gulp-rename") (Renombrar ficheros)
  - [wiredep](https://www.npmjs.com/package/wiredep "https://www.npmjs.com/package/wiredep") (Auntoinsertar js y css de librerias instaladas con bower)
