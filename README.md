@@ -4,13 +4,13 @@ Consiste en una plantilla para empezar proyectos web. Se compone de:
   - [Node.js](https://nodejs.org/en/ "https://nodejs.org/en/") (Servidor node)
   - [Gulp.js](http://gulpjs.com/ "http://gulpjs.com/") (Administrador de tareas)
   - [Bower](http://bower.io/ "http://bower.io/") (Para instalar librerias)
-  - 
+
 ### Version
 1.0.0
 
 ### Plugins Gulp.js
 Los "plugins" utilizados para Gulp son:
- -  [browser-sync](https://www.npmjs.com/package/browser-sync "https://www.npmjs.com/package/browser-sync") (Sincronización en tiempo real)
+ - [browser-sync](https://www.npmjs.com/package/browser-sync "https://www.npmjs.com/package/browser-sync") (Sincronización en tiempo real)
  - [gulp-sass](https://www.npmjs.com/package/gulp-sass "https://www.npmjs.com/package/gulp-sass") (Compilar SASS)
  - [gulp-inject](https://www.npmjs.com/package/gulp-inject "https://www.npmjs.com/package/gulp-inject") (Autoinsertar js y css)
  - [gulp-clean-css](https://www.npmjs.com/package/gulp-clean-css "https://www.npmjs.com/package/gulp-clean-css") (Minificar css)
@@ -20,12 +20,13 @@ Los "plugins" utilizados para Gulp son:
  - [wiredep](https://www.npmjs.com/package/wiredep "https://www.npmjs.com/package/wiredep") (Auntoinsertar js y css de librerias instaladas con bower)
  - [gulp-iconfont](https://www.npmjs.com/package/gulp-iconfont "https://www.npmjs.com/package/gulp-iconfont") (Generar una fuente con imágenes svg)
  - [gulp-iconfont-css](https://www.npmjs.com/package/gulp-iconfont-css "https://www.npmjs.com/package/gulp-iconfont-css") (Generar css a partir de una fuente)
+ - [gulp-connect-php](https://www.npmjs.com/package/gulp-connect-php "https://www.npmjs.com/package/gulp-connect-php") (PHP)
 
 ### Librerias
 
 Las librerias instaladas mediantes bower son:
 
-* [Twitter Bootstrap](http://getbootstrap.com/ "http://getbootstrap.com/") 
+* [Twitter Bootstrap](http://getbootstrap.com/ "http://getbootstrap.com/")
 * [jQuery](https://jquery.com/ "https://jquery.com/")
 
 ### Instalación

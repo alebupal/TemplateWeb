@@ -1,8 +1,8 @@
 {
   "name": "plantillaWeb",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "Plantilla para hacer aplicaciones web",
-  "main": "index.html",
+  "main": "index.php",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -19,13 +19,14 @@
   "author": "Alejandro Bueno Palma",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/alebupal/webapp/issues"
+    "url": "https://github.com/alebupal/TemplateWeb#librerias"
   },
-  "homepage": "https://github.com/alebupal/webapp#readme",
+  "homepage": "https://github.com/alebupal/TemplateWeb#readme",
   "devDependencies": {
     "browser-sync": "^2.12.5",
     "gulp": "^3.9.1",
     "gulp-clean-css": "^2.0.6",
+    "gulp-connect-php": "0.0.7",
     "gulp-iconfont": "^6.0.0",
     "gulp-iconfont-css": "^2.1.0",
     "gulp-inject": "^4.0.0",

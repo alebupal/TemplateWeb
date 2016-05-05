@@ -21,11 +21,11 @@
 }
 
 
-.icon-key:before {
+.icon-bicycle:before {
 	content: "\E001";
 }
 
-.icon-linkedin-button:before {
+.icon-phone-call:before {
 	content: "\E002";
 }
 
@@ -33,6 +33,6 @@
 	content: "\E003";
 }
 
-.icon-twitter-logo-button:before {
+.icon-woman-with-headset:before {
 	content: "\E004";
 }

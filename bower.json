@@ -1,5 +1,5 @@
 {
-  "name": "plantillaWeb",
+  "name": "TemplataWeb",
   "description": "Plantilla para hacer aplicaciones web",
   "main": "app/index.html",
   "authors": [
@@ -12,7 +12,7 @@
     "sass",
     "jade"
   ],
-  "homepage": "https://github.com/alebupal/webapp",
+  "homepage": "https://github.com/alebupal/TemplateWeb",
   "ignore": [
     "**/.*",
     "node_modules",
